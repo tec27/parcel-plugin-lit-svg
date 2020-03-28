@@ -1,8 +1,8 @@
 const { Asset } = require('parcel-bundler')
 
 class LitSvgAsset extends Asset {
-  constructor(name, options) {
-    super(name, options)
+  constructor(...args) {
+    super(...args)
     this.type = 'js'
   }
 
@@ -18,3 +18,5 @@ class LitSvgAsset extends Asset {
     `
   }
 }
+
+module.exports = LitSvgAsset
