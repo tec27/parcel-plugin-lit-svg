@@ -1,11 +1,15 @@
 {
   "name": "parcel-plugin-lit-svg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Parcel asset type for inlining SVGs using lit-html",
   "main": "index.js",
-  "scripts": {
-  },
-  "keywords": ["parcel", "svg", "lit-html", "lit-element"],
+  "scripts": {},
+  "keywords": [
+    "parcel",
+    "svg",
+    "lit-html",
+    "lit-element"
+  ],
   "author": "Travis Collins <travis@tec27.com> (http://tec27.com/)",
   "license": "MIT",
   "repository": {
